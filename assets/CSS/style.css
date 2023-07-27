@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style:none;
+}
+body {
+    font-family: sans-serif;
+}
+.nav {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(3, 3, 52);
+    transition: all .3s;
+}
+.nav .logo {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 100px;
+}
+.nav ul {
+    float: right;
+    margin-right: 50px;
+}
+.nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    line-height: 80px;
+}
+.nav ul li a {
+    color: #d8d6f5;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav ul li a:hover {
+    color: #786edd;
+    transition: .5s;
+}
+.sec1{
+    background: url('../images/sustainable-aviation-v2-16x9_2.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height: 100vh;
+}
+.sec2{
+    background: url('../images/featured.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height: 100vh;
+}
+h1 {
+    font-size: 40px;
+    padding: 0 20px 0 20px;
+}
